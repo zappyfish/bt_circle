@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Arduinoid</string>
+    <string name="arduinoid">Welcome to Arduinoid!</string>
+    <string name="action_settings">Adjust Brightness</string>
+    <string name="start_connection">Start Connection</string>
+    <string name="pairing">Enter analog value</string>
+	<string name="send">Send Brightness</string>
+	<string name="devices">Find Devices</string>
+	<string name="trying_connection">Try to Connect</string>
+</resources>
