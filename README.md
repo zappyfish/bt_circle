@@ -16,5 +16,5 @@ As mentioned above, I used a shift register to drive 7 of the 10 LEDs (I didn't 
 placement on the chip), and pins 2-4 on the arduino to drive the other 3. I used the HC-05 bluetooth module which is
 pretty simple to wire up (GND, VCC, Tx to Rx, Rx to Tx). You'll need to go into your device's settings to pair with it before
 you use the app or else it will crash. The last items you'll need are an arduino UNO and LEDs. I wired the LEDs with a common cathode
-so I just needed one 220 ohm resistor to limit current. I also included a .pdf schematic. It's a bit messy, so please
+so I just needed one 220 ohm resistor to limit current. (EDIT: I have since learned that this is a bad idea since the LEDs may have descrepancies in forward voltage) I also included a .pdf schematic. It's a bit messy, so please
 let me know if you have any questions.
